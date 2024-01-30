@@ -1,4 +1,4 @@
-# Flutter GetX App
+# Flutter Snap Timer App
 
 A Flutter application using the GetX state management library for managing the state.
 
@@ -43,7 +43,7 @@ These data points are saved and retrieved locally using `shared_preferences`.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/spandan3001/snap_timer.git
    ```
 2. Navigate to the project directory:
     ```bash

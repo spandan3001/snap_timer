@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
+import '../utils/compnents/result_display_card.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -19,7 +20,13 @@ class _MainPageState extends State<MainPage> {
         foregroundColor: Colors.white,
         backgroundColor: kBlue,
       ),
-      body: const Placeholder(),
+      body: const DisplayCard(
+        mainColor: kYellow,
+        borderColor: kYellowBorder,
+        title: 'hello',
+        text: 'test',
+        borderRadius: 5.0,
+      ),
     );
   }
 }

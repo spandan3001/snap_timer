@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         // App bar title and styling
-        title: const Text('GetX App'),
+        title: const Text('Snap Timer'),
         centerTitle: true,
         foregroundColor: Colors.white,
         backgroundColor: kBlue,

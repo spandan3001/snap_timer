@@ -1,8 +1,8 @@
-// Import the necessary packages
+// Import necessary packages
 import 'package:get/get.dart';
 import 'dart:math';
 
-// Define a controller for Widget 2
+// Define a GetX controller for Widget 2
 class Widget2Controller extends GetxController {
   // Declare an observable RxInt variable to hold the random number
   RxInt randomNumber = 0.obs;
@@ -11,5 +11,8 @@ class Widget2Controller extends GetxController {
   void generateRandomNumber() {
     // Use the Random class to generate a random number
     randomNumber.value = Random().nextInt(59);
+
+    //test comment for success
+    // randomNumber.value = DateTime.now().second;
   }
 }

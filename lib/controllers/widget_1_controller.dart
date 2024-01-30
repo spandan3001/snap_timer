@@ -1,7 +1,7 @@
-// Import the necessary packages
+// Import necessary package
 import 'package:get/get.dart';
 
-// Define a controller for Widget 1
+// Define a GetX controller for Widget 1
 class Widget1Controller extends GetxController {
   // Declare an observable RxInt variable to hold the seconds
   RxInt seconds = 0.obs;

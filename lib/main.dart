@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:snap_timer/views/splash_screen.dart';
 
+import 'data/binding/binding.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  HomeBinding().dependencies();
   runApp(const MyApp());
 }
 

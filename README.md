@@ -60,9 +60,9 @@ These data points are saved and retrieved locally using `shared_preferences`.
    
 ## Dependencies
 
-- * flutter: Flutter Framework
-- * get: GetX State Management
-- * shared_preferences: Shared Preferences
+- flutter: Flutter Framework
+- get: GetX State Management
+- shared_preferences: Shared Preferences
 
 
 
